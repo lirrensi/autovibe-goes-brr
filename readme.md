@@ -1,6 +1,6 @@
 # 🤖 AutoVibe - Cause why using your system UI when you can do it hard way?
 
-### (yes, this entire file was vibed one shot no scope)
+### (yes, this entire readme was vibed zero shot no scope)
 
 > _"Why remember commands when you can just ask AI to do it?"_ - Every developer ever
 
@@ -54,9 +54,9 @@ python autovibe.py
 ## Model selection
 
 -   I use Open Router for all, so you gotta check that out too.
--   You can get free google key or use whatever free ones they have not rate limited at the moment.
--   Check that provider has Structured outputs - its an absolute must
--   Default uses `google/gemini-2.5` and its good enough - check vibe_scripts for examples
+-   You can get free google key or use whatever free stuff they have not rate limited at the moment.
+-   Check that provider has `Structured outputs` - its an absolute must or not works
+-   Default uses `google/gemini-2.5` and its good enough - check `vibe_scripts` for examples
 
 ## Usage Examples (The Good Stuff) 🎮
 
@@ -83,7 +83,7 @@ Just run it and start asking for stuff:
 ### Network Stuff
 
 ```
-💬 "ping google and tell me if internet works"
+💬 "ping google and tell me if internet works" (wtf lol?)
 💬 "check which ports are open on localhost"
 💬 "show me my IP address"
 💬 "test if I can reach reddit.com"
