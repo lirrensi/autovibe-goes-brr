@@ -53,10 +53,10 @@ python autovibe.py
 
 ## Model selection
 
-I use Open Router for all, so you gotta check that out too.
-You can get free google key or use whatever free ones they have not rate limited at the moment.
-Check that provider has Structured outputs - its an absolute must
-Default uses `google/gemini-2.5` and its good enough - check vibe_scripts for examples
+-   I use Open Router for all, so you gotta check that out too.
+-   You can get free google key or use whatever free ones they have not rate limited at the moment.
+-   Check that provider has Structured outputs - its an absolute must
+-   Default uses `google/gemini-2.5` and its good enough - check vibe_scripts for examples
 
 ## Usage Examples (The Good Stuff) 🎮
 
