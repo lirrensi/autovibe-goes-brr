@@ -38,14 +38,14 @@ It's like having a sysadmin friend who never gets tired of your random "quick ch
 
 ```bash
 # Grab the goods
-git clone <repo-url>
-cd autovibe
+https://github.com/lirrensi/autovibe-goes-brr.git
+cd autovibe-goes-brr
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Set your OpenAI key
-export OPENAI_API_KEY="sk-your-key-here"
+# Set your key
+export OPEN_ROUTER_KEY="sk-your-key-here"
 
 # Start vibing
 python autovibe.py
