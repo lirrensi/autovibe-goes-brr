@@ -1,0 +1,42 @@
+{
+    "name": "AutoVibe",
+    "version": "1.0.0",
+    "description": "Generates python code and automatically runs it with auto-retry and safety checks",
+    "transport": {
+        "type": "stdio"
+    },
+    "capabilities": {
+        "tools": true
+    },
+    "tools": [
+        {
+            "name": "auto_vibe",
+            "description": "Generates python code and automatically runs it with auto-retry and safety checks",
+            "inputSchema": {
+                "type": "object",
+                "properties": {
+                    "content": {
+                        "type": "string",
+                        "description": "The content/prompt for code generation"
+                    },
+                    "max_retry": {
+                        "type": "integer",
+                        "default": 2,
+                        "description": "Maximum number of retries"
+                    },
+                    "auto_check": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "Enable automatic checking if result is that you wanted"
+                    },
+                    "exec_timeout": {
+                        "type": "integer",
+                        "default": 120,
+                        "description": "Execution timeout in seconds"
+                    }
+                },
+                "required": ["content"]
+            }
+        }
+    ]
+}

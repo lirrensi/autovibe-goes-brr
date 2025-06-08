@@ -51,6 +51,11 @@ export OPEN_ROUTER_KEY="sk-your-key-here"
 python autovibe.py
 ```
 
+## Advanced (for real sigmas) 💪
+
+-   use `serv_rest.py` to vibe without ever even looking at it
+-   use `serv_mcp.py` (`npx @modelcontextprotocol/inspector python serv_mcp.py`) to vibe without leaving your favorite brain replacer
+
 ## Model selection
 
 -   I use Open Router for all, so you gotta check that out too.
